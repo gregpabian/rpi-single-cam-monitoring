@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Servo control panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="image"><img src="/live.jpg"><div class="overlay">
+        <div id="status">Disconnected</div>
+
+        <div class="panel">
+          <div id="joystick"></div>
+        </div>
+      </div>
+    </div>
+
+  <p>Move the joystick to rotate camera</p>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
